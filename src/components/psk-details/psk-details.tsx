@@ -1,6 +1,5 @@
 import { Component, Prop, Element, Host, h } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from '@cardinal/core';
-import { dispatchEvent } from "../../events/helpers";
+import { CustomTheme, TableOfContentProperty, dispatchEvent } from '@cardinal/core';
 
 @Component({
   tag: 'psk-details',

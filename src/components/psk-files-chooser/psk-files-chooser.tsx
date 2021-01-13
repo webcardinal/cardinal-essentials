@@ -1,6 +1,6 @@
 import { Component, Element, h, Prop, State } from '@stencil/core';
 import { CustomTheme, BindModel, TableOfContentProperty } from '@cardinal/core';
-import { PskButtonEvent } from '../../events';
+import { PskButtonEvent } from '@cardinal/core'; // events
 
 @Component({
 	tag: 'psk-files-chooser',
