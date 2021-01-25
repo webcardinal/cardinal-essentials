@@ -1,6 +1,6 @@
 import { Component, h, Prop, Element } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
-import { getInnerHTML } from "@cardinal/core"; // utils
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
+import { getInnerHTML } from "@cardinal/internals"; // utils
 import { PSK_LIST_PARSE_CONFIG, LIST_TYPE_ORDERED } from "../../utils/constants";
 
 @Component({

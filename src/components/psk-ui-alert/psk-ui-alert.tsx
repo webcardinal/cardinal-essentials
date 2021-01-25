@@ -1,5 +1,5 @@
 import { Component, Event, EventEmitter, h, Prop, State, Watch } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { StyleCustomisation } from "../../interfaces";
 import Config from "../psk-list-feedbacks/Config.js";
 

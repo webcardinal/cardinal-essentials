@@ -1,6 +1,6 @@
 import { Component, Element, h, Prop } from "@stencil/core";
-import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/core";
-import { normalizeDashedToCamelCase } from "@cardinal/core"; // utils;
+import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
+import { normalizeDashedToCamelCase } from "@cardinal/internals"; // utils;
 import { GRID_BREAKPOINTS, GRID_HIDDEN_BREAKPOINTS, GRID_IGNORED_COMPONENTS } from "../../utils/constants";
 
 interface BreakPoint {

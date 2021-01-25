@@ -1,6 +1,6 @@
 import { Component, h, Prop, Element, Event, EventEmitter, State } from "@stencil/core";
-import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/core";
-import { closestParentElement, normalizeElementId, scrollToElement } from "@cardinal/core"; // utils
+import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/internals";
+import { closestParentElement, normalizeElementId, scrollToElement } from "@cardinal/internals"; // utils
 import { TOOLTIP_TEXT, TOOLTIP_COPIED_TEXT } from "../../utils/constants";
 
 @Component({

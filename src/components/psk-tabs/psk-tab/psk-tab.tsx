@@ -1,5 +1,5 @@
 import { Component, Prop, Host, h } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
   tag: 'psk-tab',

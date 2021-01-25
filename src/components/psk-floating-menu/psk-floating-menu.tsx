@@ -1,6 +1,6 @@
 import { Component, h, Prop, Event, EventEmitter, State } from '@stencil/core';
-import { CustomTheme, TableOfContentProperty } from '@cardinal/core';
-import { MenuItem } from '@cardinal/core/src/interfaces'
+import { CustomTheme, TableOfContentProperty } from '@cardinal/internals';
+// import { MenuItem } from '@cardinal/internals/src/interfaces'
 
 @Component({
     tag: 'psk-floating-menu',
@@ -10,7 +10,8 @@ import { MenuItem } from '@cardinal/core/src/interfaces'
 export class PskFloatingMenu {
     @CustomTheme()
 
-    @State() menuItems: MenuItem[] = [];
+    // @State() menuItems: MenuItem[] = [];
+    @State() menuItems = [];
 
     @TableOfContentProperty({
         description: `This property shows the state of the backdrop on the Floating Menu and the Floating Menu itself.`,

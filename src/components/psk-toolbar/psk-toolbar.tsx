@@ -1,6 +1,6 @@
 import { Component, Element, h, Prop } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
-import { createCustomEvent } from '@cardinal/core'; // utils;
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
+import { createCustomEvent } from '@cardinal/internals'; // utils;
 import { ACTIONS_ICONS } from '../../utils/constants';
 
 @Component({

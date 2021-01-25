@@ -1,5 +1,5 @@
 import { Component, h, Prop } from '@stencil/core';
-import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/core';
+import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
 @Component({

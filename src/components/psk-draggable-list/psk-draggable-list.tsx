@@ -1,5 +1,5 @@
 import { Component, h, State } from '@stencil/core';
-import { BindModel, CustomTheme } from '@cardinal/core';
+import { BindModel, CustomTheme } from '@cardinal/internals';
 import { DraggableOption } from '../../interfaces';
 
 @Component({

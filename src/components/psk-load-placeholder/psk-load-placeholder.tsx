@@ -1,5 +1,5 @@
 import { Component, h, State } from "@stencil/core";
-import { CustomTheme } from "@cardinal/core";
+import { CustomTheme } from "@cardinal/internals";
 
 @Component({
   tag: 'psk-load-placeholder',

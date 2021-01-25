@@ -1,5 +1,5 @@
 import { Component, Event, EventEmitter, h, Prop, State, Watch } from "@stencil/core";
-import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/core";
+import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/internals";
 import { StyleCustomisation } from "../../interfaces";
 
 @Component({

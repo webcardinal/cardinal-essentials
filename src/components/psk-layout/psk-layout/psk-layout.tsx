@@ -1,5 +1,5 @@
 import { Component, Element, h, Host, Prop } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { applyStyles, generateRule } from "../psk-layout.utils";
 
 @Component({

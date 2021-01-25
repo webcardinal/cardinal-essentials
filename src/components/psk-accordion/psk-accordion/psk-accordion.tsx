@@ -1,5 +1,5 @@
 import { Component, Element, Host, h, Prop } from '@stencil/core';
-import { CustomTheme, TableOfContentProperty } from '@cardinal/core';
+import { CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 
 @Component({
   tag: 'psk-accordion',

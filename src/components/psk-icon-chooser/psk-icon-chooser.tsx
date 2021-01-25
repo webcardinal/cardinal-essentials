@@ -1,5 +1,5 @@
 import { Component, Element, h, Prop, State } from "@stencil/core";
-import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { iconModels } from "./iconModels.js"
 
 @Component({

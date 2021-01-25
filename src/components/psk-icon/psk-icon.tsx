@@ -1,5 +1,5 @@
 import { Component, Prop, h } from "@stencil/core";
-import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
     tag: "psk-icon",

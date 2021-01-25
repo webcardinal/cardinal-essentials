@@ -1,5 +1,5 @@
 import { Component, h, Prop } from "@stencil/core";
-import { CustomTheme, TableOfContentProperty } from "@cardinal/core";
+import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { WizardStep } from '../../interfaces';
 
 @Component({

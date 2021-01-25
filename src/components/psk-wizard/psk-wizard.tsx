@@ -1,5 +1,5 @@
 import { Component, Element, Event, EventEmitter, h, Prop, State } from "@stencil/core";
-import { BindModel, CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/core";
+import { BindModel, CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/internals";
 import { WizardStep } from "../../interfaces";
 import { WizardEvent } from "../../events";
 
