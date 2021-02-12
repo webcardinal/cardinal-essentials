@@ -1,4 +1,4 @@
-import { Component, Element, Host, h, Prop } from '@stencil/core';
+import { Component, Element, h, Prop } from '@stencil/core';
 import { CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 
 @Component({
@@ -35,13 +35,27 @@ export class PskAccordion {
   })
   @Prop({ reflect: true, mutable: true }) layout: string = 'default';
 
+  private __items: HTMLCollection;
+
   componentWillLoad() {
     this.layout = this.__getAccordionItemLayout();
-    const items = this.__host.children;
+  }
 
-    for (let i = 0; i < items.length; i++) {
-      items[i].setAttribute('layout', this.layout);
-      items[i].addEventListener('psk-accordion-item:toggle', e => this.__toggleAccordionItem(e, i))
+  componentDidLoad() {
+    let parent: Element = this.__host;
+    let tagName = 'psk-accordion-item'.toUpperCase();
+
+    while (parent && parent.firstElementChild) {
+      if (parent.firstElementChild.tagName === tagName) {
+        this.__items = parent.children;
+        break;
+      }
+      parent = parent.firstElementChild;
+    }
+
+    for (let i = 0; i < this.__items.length; i++) {
+      this.__items[i].setAttribute('layout', this.layout);
+      this.__items[i].addEventListener('psk-accordion-item:toggle', e => this.__toggleAccordionItem(e, i))
     }
   }
 
@@ -61,15 +75,14 @@ export class PskAccordion {
   __toggleAccordionItem(e, index) {
     e.stopImmediatePropagation();
 
-    const items = this.__host.children;
     if (this.multiple === false) {
-      for (let i = 0; i < items.length; i++) {
+      for (let i = 0; i < this.__items.length; i++) {
         if (i === index) continue;
-        items[i].removeAttribute('opened');
+        this.__items[i].removeAttribute('opened');
       }
     }
 
-    const item = items[index];
+    const item = this.__items[index];
     if (this.__getAccordionItemStatus(item)) {
       item.removeAttribute('opened');
     } else {
@@ -78,10 +91,6 @@ export class PskAccordion {
   }
 
   render() {
-    return (
-      <Host>
-        <slot />
-      </Host>
-    );
+    return <slot />;
   }
 }
