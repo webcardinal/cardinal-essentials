@@ -155,6 +155,12 @@ export namespace Components {
     interface PskPinPopup {
         "opened": boolean;
     }
+    interface PskProgress {
+        "color": string;
+        "label": string;
+        "max": number;
+        "value": number;
+    }
     interface PskSlideshow {
         "caption": string;
         "fadeSeconds": number;
@@ -381,6 +387,12 @@ declare global {
         prototype: HTMLPskPinPopupElement;
         new (): HTMLPskPinPopupElement;
     };
+    interface HTMLPskProgressElement extends Components.PskProgress, HTMLStencilElement {
+    }
+    var HTMLPskProgressElement: {
+        prototype: HTMLPskProgressElement;
+        new (): HTMLPskProgressElement;
+    };
     interface HTMLPskSlideshowElement extends Components.PskSlideshow, HTMLStencilElement {
     }
     var HTMLPskSlideshowElement: {
@@ -476,6 +488,7 @@ declare global {
         "psk-load-placeholder": HTMLPskLoadPlaceholderElement;
         "psk-modal": HTMLPskModalElement;
         "psk-pin-popup": HTMLPskPinPopupElement;
+        "psk-progress": HTMLPskProgressElement;
         "psk-slideshow": HTMLPskSlideshowElement;
         "psk-stepper": HTMLPskStepperElement;
         "psk-stepper-renderer": HTMLPskStepperRendererElement;
@@ -644,6 +657,12 @@ declare namespace LocalJSX {
         "onSendPin"?: (event: CustomEvent<any>) => void;
         "opened"?: boolean;
     }
+    interface PskProgress {
+        "color"?: string;
+        "label"?: string;
+        "max"?: number;
+        "value"?: number;
+    }
     interface PskSlideshow {
         "caption"?: string;
         "fadeSeconds"?: number;
@@ -734,6 +753,7 @@ declare namespace LocalJSX {
         "psk-load-placeholder": PskLoadPlaceholder;
         "psk-modal": PskModal;
         "psk-pin-popup": PskPinPopup;
+        "psk-progress": PskProgress;
         "psk-slideshow": PskSlideshow;
         "psk-stepper": PskStepper;
         "psk-stepper-renderer": PskStepperRenderer;
@@ -779,6 +799,7 @@ declare module "@stencil/core" {
             "psk-load-placeholder": LocalJSX.PskLoadPlaceholder & JSXBase.HTMLAttributes<HTMLPskLoadPlaceholderElement>;
             "psk-modal": LocalJSX.PskModal & JSXBase.HTMLAttributes<HTMLPskModalElement>;
             "psk-pin-popup": LocalJSX.PskPinPopup & JSXBase.HTMLAttributes<HTMLPskPinPopupElement>;
+            "psk-progress": LocalJSX.PskProgress & JSXBase.HTMLAttributes<HTMLPskProgressElement>;
             "psk-slideshow": LocalJSX.PskSlideshow & JSXBase.HTMLAttributes<HTMLPskSlideshowElement>;
             "psk-stepper": LocalJSX.PskStepper & JSXBase.HTMLAttributes<HTMLPskStepperElement>;
             "psk-stepper-renderer": LocalJSX.PskStepperRenderer & JSXBase.HTMLAttributes<HTMLPskStepperRendererElement>;
