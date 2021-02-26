@@ -1,0 +1,91 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-progress",
+  "filePath": "./src/components/psk-progress/psk-progress.tsx",
+  "fileName": "psk-progress.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-progress/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-progress/usage",
+  "tag": "psk-progress",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "color",
+      "type": "string",
+      "mutable": false,
+      "attr": "color",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "mutable": false,
+      "attr": "label",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "max",
+      "type": "number",
+      "mutable": false,
+      "attr": "max",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "100",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "value",
+      "type": "number",
+      "mutable": false,
+      "attr": "value",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "0",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

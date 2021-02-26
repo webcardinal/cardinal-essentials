@@ -1,0 +1,22 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-load-placeholder",
+  "filePath": "./src/components/psk-load-placeholder/psk-load-placeholder.tsx",
+  "fileName": "psk-load-placeholder.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-load-placeholder/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-load-placeholder/usage",
+  "tag": "psk-load-placeholder",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

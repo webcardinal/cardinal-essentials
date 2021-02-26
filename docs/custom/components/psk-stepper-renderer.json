@@ -1,0 +1,68 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper-renderer",
+  "filePath": "./src/components/psk-stepper-renderer/psk-stepper-renderer.tsx",
+  "fileName": "psk-stepper-renderer.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper-renderer/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper-renderer/usage",
+  "tag": "psk-stepper-renderer",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "activeStep",
+      "type": "WizardStep",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "WizardStep"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "handleStepChange",
+      "type": "Function",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "Function"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "wizardSteps",
+      "type": "WizardStep[]",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "WizardStep[]"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

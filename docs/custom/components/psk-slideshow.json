@@ -1,0 +1,112 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-slideshow",
+  "filePath": "./src/components/psk-slideshow/psk-slideshow.tsx",
+  "fileName": "psk-slideshow.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-slideshow/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-slideshow/usage",
+  "tag": "psk-slideshow",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "caption",
+      "type": "string",
+      "mutable": false,
+      "attr": "caption",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "fadeSeconds",
+      "type": "number",
+      "mutable": false,
+      "attr": "fade-seconds",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "1",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "images",
+      "type": "string",
+      "mutable": false,
+      "attr": "images",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "mutable": false,
+      "attr": "title",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "visibleSeconds",
+      "type": "number",
+      "mutable": false,
+      "attr": "visible-seconds",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "10",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": [
+    {
+      "event": "resize",
+      "target": "window",
+      "capture": true,
+      "passive": true
+    }
+  ]
+}

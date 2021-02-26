@@ -1,0 +1,87 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-img",
+  "filePath": "./src/components/psk-img/psk-img.tsx",
+  "fileName": "psk-img.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-img/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-img/usage",
+  "tag": "psk-img",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "height",
+      "type": "string",
+      "mutable": false,
+      "attr": "height",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "src",
+      "type": "string",
+      "mutable": false,
+      "attr": "src",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "mutable": false,
+      "attr": "title",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "width",
+      "type": "string",
+      "mutable": false,
+      "attr": "width",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

@@ -1,0 +1,85 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-container",
+  "filePath": "./src/components/psk-container/psk-container.tsx",
+  "fileName": "psk-container.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-container/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-container/usage",
+  "tag": "psk-container",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "controllerName",
+      "type": "string",
+      "mutable": false,
+      "attr": "controller-name",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "history",
+      "type": "RouterHistory",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "RouterHistory"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "htmlFilePath",
+      "type": "string",
+      "mutable": false,
+      "attr": "html-file-path",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "parentCallback",
+      "type": "Function",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "Function"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

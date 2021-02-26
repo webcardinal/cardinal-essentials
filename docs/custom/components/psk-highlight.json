@@ -1,0 +1,57 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-highlight",
+  "filePath": "./src/components/psk-highlight/psk-highlight.tsx",
+  "fileName": "psk-highlight.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-highlight/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-highlight/usage",
+  "tag": "psk-highlight",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "title",
+      "type": "string",
+      "mutable": false,
+      "attr": "title",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "\"\"",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "typeOfHighlight",
+      "type": "string",
+      "mutable": false,
+      "attr": "type-of-highlight",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "Config.HIGHLIGHT_NOTE",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

@@ -1,0 +1,295 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-layout/psk-layout",
+  "filePath": "./src/components/psk-layout/psk-layout/psk-layout.tsx",
+  "fileName": "psk-layout.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-layout/psk-layout/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-layout/psk-layout/usage",
+  "tag": "psk-layout",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "alignContent",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-content",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "alignContentX",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-content-x",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "alignContentY",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-content-y",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "alignItems",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-items",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "alignItemsX",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-items-x",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "alignItemsY",
+      "type": "string",
+      "mutable": false,
+      "attr": "align-items-y",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "autoColumns",
+      "type": "string",
+      "mutable": false,
+      "attr": "auto-columns",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "autoFlow",
+      "type": "string",
+      "mutable": false,
+      "attr": "auto-flow",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "autoRows",
+      "type": "string",
+      "mutable": false,
+      "attr": "auto-rows",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "columnGap",
+      "type": "string",
+      "mutable": false,
+      "attr": "column-gap",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "columns",
+      "type": "number",
+      "mutable": false,
+      "attr": "columns",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "gap",
+      "type": "string",
+      "mutable": false,
+      "attr": "gap",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "rowGap",
+      "type": "string",
+      "mutable": false,
+      "attr": "row-gap",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "rows",
+      "type": "number",
+      "mutable": false,
+      "attr": "rows",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "templateColumns",
+      "type": "string",
+      "mutable": false,
+      "attr": "template-columns",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "templateRows",
+      "type": "string",
+      "mutable": false,
+      "attr": "template-rows",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

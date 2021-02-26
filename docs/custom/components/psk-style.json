@@ -1,0 +1,40 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-style",
+  "filePath": "./src/components/psk-style/psk-style.tsx",
+  "fileName": "psk-style.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-style/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-style/usage",
+  "tag": "psk-style",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "src",
+      "type": "string",
+      "mutable": false,
+      "attr": "src",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

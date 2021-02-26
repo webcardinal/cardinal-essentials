@@ -1,0 +1,91 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper",
+  "filePath": "./src/components/psk-stepper/psk-stepper.tsx",
+  "fileName": "psk-stepper.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-stepper/usage",
+  "tag": "psk-stepper",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [
+    "psk-wizard"
+  ],
+  "dependencies": [],
+  "dependencyGraph": {
+    "psk-wizard": [
+      "psk-stepper"
+    ]
+  },
+  "props": [
+    {
+      "name": "activeStep",
+      "type": "WizardStep",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "WizardStep"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "componentRender",
+      "type": "string",
+      "mutable": false,
+      "attr": "component-render",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "\"psk-stepper-renderer\"",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "handleStepChange",
+      "type": "Function",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "Function"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "wizardSteps",
+      "type": "WizardStep[]",
+      "mutable": false,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "WizardStep[]"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

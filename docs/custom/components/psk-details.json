@@ -1,0 +1,128 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-details",
+  "filePath": "./src/components/psk-details/psk-details.tsx",
+  "fileName": "psk-details.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-details/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-details/usage",
+  "tag": "psk-details",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [
+    "psk-icon"
+  ],
+  "dependencyGraph": {
+    "psk-details": [
+      "psk-icon"
+    ]
+  },
+  "props": [
+    {
+      "name": "eventData",
+      "type": "any",
+      "mutable": false,
+      "attr": "event-data",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "any"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "eventDispatcher",
+      "type": "string",
+      "mutable": false,
+      "attr": "event-dispatcher",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "eventName",
+      "type": "string",
+      "mutable": false,
+      "attr": "event-name",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "layout",
+      "type": "string",
+      "mutable": true,
+      "attr": "layout",
+      "reflectToAttr": true,
+      "docs": "",
+      "docsTags": [],
+      "default": "'default'",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "opened",
+      "type": "boolean",
+      "mutable": false,
+      "attr": "opened",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "mutable": false,
+      "attr": "title",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "''",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

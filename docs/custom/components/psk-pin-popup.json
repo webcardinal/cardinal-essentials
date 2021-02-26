@@ -1,0 +1,65 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-pin-popup",
+  "filePath": "./src/components/psk-pin-popup/psk-pin-popup.tsx",
+  "fileName": "psk-pin-popup.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-pin-popup/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-pin-popup/usage",
+  "tag": "psk-pin-popup",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [
+    "psk-modal"
+  ],
+  "dependencyGraph": {
+    "psk-pin-popup": [
+      "psk-modal"
+    ],
+    "psk-modal": [
+      "psk-icon"
+    ]
+  },
+  "props": [
+    {
+      "name": "opened",
+      "type": "boolean",
+      "mutable": true,
+      "attr": "opened",
+      "reflectToAttr": true,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "sendPin",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": [
+    {
+      "event": "closeModal",
+      "capture": false,
+      "passive": false
+    }
+  ]
+}

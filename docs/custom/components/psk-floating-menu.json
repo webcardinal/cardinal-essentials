@@ -1,0 +1,50 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-floating-menu",
+  "filePath": "./src/components/psk-floating-menu/psk-floating-menu.tsx",
+  "fileName": "psk-floating-menu.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-floating-menu/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-floating-menu/usage",
+  "tag": "psk-floating-menu",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "opened",
+      "type": "boolean",
+      "mutable": true,
+      "attr": "opened",
+      "reflectToAttr": true,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "needFloatingMenu",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

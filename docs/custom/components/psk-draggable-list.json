@@ -1,0 +1,28 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-draggable-list",
+  "filePath": "./src/components/psk-draggable-list/psk-draggable-list.tsx",
+  "fileName": "psk-draggable-list.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-draggable-list/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-draggable-list/usage",
+  "tag": "psk-draggable-list",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [
+    "psk-icon"
+  ],
+  "dependencyGraph": {
+    "psk-draggable-list": [
+      "psk-icon"
+    ]
+  },
+  "props": [],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

@@ -1,0 +1,106 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser",
+  "filePath": "./src/components/psk-files-chooser/psk-files-chooser.tsx",
+  "fileName": "psk-files-chooser.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser/usage",
+  "tag": "psk-files-chooser",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "accept",
+      "type": "string",
+      "mutable": false,
+      "attr": "accept",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "eventName",
+      "type": "string",
+      "mutable": false,
+      "attr": "event-name",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "filesAppend",
+      "type": "boolean",
+      "mutable": false,
+      "attr": "files-append",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "mutable": false,
+      "attr": "label",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "\"Select files\"",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "listFiles",
+      "type": "boolean",
+      "mutable": false,
+      "attr": "list-files",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": true,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

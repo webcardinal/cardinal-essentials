@@ -1,0 +1,124 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-list-feedbacks",
+  "filePath": "./src/components/psk-list-feedbacks/psk-list-feedbacks.tsx",
+  "fileName": "psk-list-feedbacks.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-list-feedbacks/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-list-feedbacks/usage",
+  "tag": "psk-list-feedbacks",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "alertRenderer",
+      "type": "string",
+      "mutable": false,
+      "attr": "alert-renderer",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "messagesToDisplay",
+      "type": "number",
+      "mutable": false,
+      "attr": "messages-to-display",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "3",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "styleCustomisation",
+      "type": "StyleCustomisation | string",
+      "mutable": false,
+      "attr": "style-customisation",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "{}",
+      "values": [
+        {
+          "type": "StyleCustomisation"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "timeAlive",
+      "type": "number",
+      "mutable": false,
+      "attr": "time-alive",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "toastRenderer",
+      "type": "string",
+      "mutable": false,
+      "attr": "toast-renderer",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "openFeedback",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": [
+    {
+      "event": "closeFeedback",
+      "capture": false,
+      "passive": false
+    }
+  ]
+}

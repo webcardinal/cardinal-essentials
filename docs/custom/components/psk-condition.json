@@ -1,0 +1,50 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-condition",
+  "filePath": "./src/components/psk-condition/psk-condition.tsx",
+  "fileName": "psk-condition.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-condition/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-condition/usage",
+  "tag": "psk-condition",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "condition",
+      "type": "any",
+      "mutable": false,
+      "attr": "condition",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "any"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "getModelEvent",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

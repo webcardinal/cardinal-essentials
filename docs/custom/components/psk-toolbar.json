@@ -1,0 +1,78 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-toolbar",
+  "filePath": "./src/components/psk-toolbar/psk-toolbar.tsx",
+  "fileName": "psk-toolbar.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-toolbar/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-toolbar/usage",
+  "tag": "psk-toolbar",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [
+    "psk-icon"
+  ],
+  "dependencyGraph": {
+    "psk-toolbar": [
+      "psk-icon"
+    ]
+  },
+  "props": [
+    {
+      "name": "actions",
+      "type": "string",
+      "mutable": false,
+      "attr": "actions",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "eventData",
+      "type": "string",
+      "mutable": false,
+      "attr": "event-data",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "icons",
+      "type": "boolean",
+      "mutable": false,
+      "attr": "icons",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

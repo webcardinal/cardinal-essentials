@@ -1,0 +1,72 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-icon-chooser",
+  "filePath": "./src/components/psk-icon-chooser/psk-icon-chooser.tsx",
+  "fileName": "psk-icon-chooser.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-icon-chooser/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-icon-chooser/usage",
+  "tag": "psk-icon-chooser",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "iconsColor",
+      "type": "string",
+      "mutable": false,
+      "attr": "icons-color",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "iconsSize",
+      "type": "string",
+      "mutable": false,
+      "attr": "icons-size",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "mutable": false,
+      "attr": "value",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

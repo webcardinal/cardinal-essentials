@@ -1,0 +1,88 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard",
+  "filePath": "./src/components/psk-wizard/psk-wizard.tsx",
+  "fileName": "psk-wizard.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard/usage",
+  "tag": "psk-wizard",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [
+    "psk-stepper"
+  ],
+  "dependencyGraph": {
+    "psk-wizard": [
+      "psk-stepper"
+    ]
+  },
+  "props": [
+    {
+      "name": "componentRender",
+      "type": "string",
+      "mutable": false,
+      "attr": "component-render",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "wizardSteps",
+      "type": "WizardStep[]",
+      "mutable": true,
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "WizardStep[]"
+        }
+      ],
+      "optional": true,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "changeStep",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    },
+    {
+      "event": "finishWizard",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    },
+    {
+      "event": "needWizardConfiguration",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

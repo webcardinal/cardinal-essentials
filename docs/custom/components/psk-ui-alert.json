@@ -1,0 +1,103 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert",
+  "filePath": "./src/components/psk-ui-alert/psk-ui-alert.tsx",
+  "fileName": "psk-ui-alert.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert/usage",
+  "tag": "psk-ui-alert",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "message",
+      "type": "any",
+      "mutable": false,
+      "attr": "message",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "any"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "styleCustomisation",
+      "type": "StyleCustomisation | string",
+      "mutable": false,
+      "attr": "style-customisation",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "{}",
+      "values": [
+        {
+          "type": "StyleCustomisation"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "timeAlive",
+      "type": "any",
+      "mutable": false,
+      "attr": "time-alive",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "3000",
+      "values": [
+        {
+          "type": "any"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "typeOfAlert",
+      "type": "string",
+      "mutable": false,
+      "attr": "type-of-alert",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "Config.ALERT_SUCCESS",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "closeFeedback",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

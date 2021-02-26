@@ -1,0 +1,94 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-modal",
+  "filePath": "./src/components/psk-modal/psk-modal.tsx",
+  "fileName": "psk-modal.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-modal/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-modal/usage",
+  "tag": "psk-modal",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [
+    "psk-pin-popup"
+  ],
+  "dependencies": [
+    "psk-icon"
+  ],
+  "dependencyGraph": {
+    "psk-modal": [
+      "psk-icon"
+    ],
+    "psk-pin-popup": [
+      "psk-modal"
+    ]
+  },
+  "props": [
+    {
+      "name": "eventName",
+      "type": "string",
+      "mutable": false,
+      "attr": "event-name",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "expanded",
+      "type": "boolean",
+      "mutable": true,
+      "attr": "expanded",
+      "reflectToAttr": true,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "opened",
+      "type": "boolean",
+      "mutable": true,
+      "attr": "opened",
+      "reflectToAttr": true,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "closeModal",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

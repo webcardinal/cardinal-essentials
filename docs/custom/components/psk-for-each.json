@@ -1,0 +1,50 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-for-each",
+  "filePath": "./src/components/psk-for-each/psk-for-each.tsx",
+  "fileName": "psk-for-each.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-for-each/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-for-each/usage",
+  "tag": "psk-for-each",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "none",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "dataViewModel",
+      "type": "string",
+      "mutable": false,
+      "attr": "data-view-model",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "null",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "getModelEvent",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}

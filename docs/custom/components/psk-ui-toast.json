@@ -1,0 +1,102 @@
+{
+  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-toast",
+  "filePath": "./src/components/psk-ui-toast/psk-ui-toast.tsx",
+  "fileName": "psk-ui-toast.tsx",
+  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-toast/readme.md",
+  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-toast/usage",
+  "tag": "psk-ui-toast",
+  "usage": {},
+  "docs": "",
+  "docsTags": [],
+  "encapsulation": "shadow",
+  "dependents": [],
+  "dependencies": [],
+  "dependencyGraph": {},
+  "props": [
+    {
+      "name": "message",
+      "type": "any",
+      "mutable": false,
+      "attr": "message",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "any"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "styleCustomisation",
+      "type": "StyleCustomisation | string",
+      "mutable": false,
+      "attr": "style-customisation",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "{}",
+      "values": [
+        {
+          "type": "StyleCustomisation"
+        },
+        {
+          "type": "string"
+        }
+      ],
+      "optional": true,
+      "required": false
+    },
+    {
+      "name": "timeMeasure",
+      "type": "string",
+      "mutable": false,
+      "attr": "time-measure",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "'Right now'",
+      "values": [
+        {
+          "type": "string"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "timeSinceCreation",
+      "type": "number",
+      "mutable": false,
+      "attr": "time-since-creation",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    }
+  ],
+  "methods": [],
+  "events": [
+    {
+      "event": "closeFeedback",
+      "detail": "any",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": "",
+      "docsTags": []
+    }
+  ],
+  "styles": [],
+  "slots": [],
+  "parts": [],
+  "listeners": []
+}
