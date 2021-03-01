@@ -1,9 +1,6 @@
 {
-  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-echo",
   "filePath": "./src/components/psk-echo/psk-echo.tsx",
   "fileName": "psk-echo.tsx",
-  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-echo/readme.md",
-  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-echo/usage",
   "tag": "psk-echo",
   "usage": {},
   "docs": "",

@@ -1,9 +1,6 @@
 {
-  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard",
   "filePath": "./src/components/psk-wizard/psk-wizard.tsx",
   "fileName": "psk-wizard.tsx",
-  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard/readme.md",
-  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-wizard/usage",
   "tag": "psk-wizard",
   "usage": {},
   "docs": "",

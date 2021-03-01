@@ -1,9 +1,6 @@
 {
-  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert",
   "filePath": "./src/components/psk-ui-alert/psk-ui-alert.tsx",
   "fileName": "psk-ui-alert.tsx",
-  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert/readme.md",
-  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-ui-alert/usage",
   "tag": "psk-ui-alert",
   "usage": {},
   "docs": "",

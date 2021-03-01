@@ -1,9 +1,6 @@
 {
-  "dirPath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser",
   "filePath": "./src/components/psk-files-chooser/psk-files-chooser.tsx",
   "fileName": "psk-files-chooser.tsx",
-  "readmePath": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser/readme.md",
-  "usagesDir": "D:/Work/webcardinal-app-starter/.webcardinal/components/cardinal-essentials/src/components/psk-files-chooser/usage",
   "tag": "psk-files-chooser",
   "usage": {},
   "docs": "",
