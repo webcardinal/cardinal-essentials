@@ -1,162 +1,122 @@
 {
   "psk-accordion": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-accordion.json"
+    "source": "@cardinal/essentials"
   },
   "psk-accordion-item": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-accordion-item.json"
+    "source": "@cardinal/essentials"
   },
   "psk-attachments-list": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-attachments-list.json"
+    "source": "@cardinal/essentials"
   },
   "psk-breadcrumb-navigator": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-breadcrumb-navigator.json"
+    "source": "@cardinal/essentials"
   },
   "psk-button-group": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-button-group.json"
+    "source": "@cardinal/essentials"
   },
   "psk-card": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-card.json"
+    "source": "@cardinal/essentials"
   },
   "psk-condition": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-condition.json"
+    "source": "@cardinal/essentials"
   },
   "psk-container": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-container.json"
+    "source": "@cardinal/essentials"
   },
   "psk-copy-clipboard": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-copy-clipboard.json"
+    "source": "@cardinal/essentials"
   },
   "psk-date": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-date.json"
+    "source": "@cardinal/essentials"
   },
   "psk-details": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-details.json"
+    "source": "@cardinal/essentials"
   },
   "psk-draggable-list": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-draggable-list.json"
+    "source": "@cardinal/essentials"
   },
   "psk-echo": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-echo.json"
+    "source": "@cardinal/essentials"
   },
   "psk-files-chooser": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-files-chooser.json"
+    "source": "@cardinal/essentials"
   },
   "psk-floating-menu": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-floating-menu.json"
+    "source": "@cardinal/essentials"
   },
   "psk-for-each": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-for-each.json"
+    "source": "@cardinal/essentials"
   },
   "psk-grid": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-grid.json"
+    "source": "@cardinal/essentials"
   },
   "psk-highlight": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-highlight.json"
+    "source": "@cardinal/essentials"
   },
   "psk-icon": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-icon.json"
+    "source": "@cardinal/essentials"
   },
   "psk-icon-chooser": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-icon-chooser.json"
+    "source": "@cardinal/essentials"
   },
   "psk-img": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-img.json"
+    "source": "@cardinal/essentials"
   },
   "psk-layout": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-layout.json"
+    "source": "@cardinal/essentials"
   },
   "psk-layout-item": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-layout-item.json"
+    "source": "@cardinal/essentials"
   },
   "psk-list": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-list.json"
+    "source": "@cardinal/essentials"
   },
   "psk-list-feedbacks": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-list-feedbacks.json"
+    "source": "@cardinal/essentials"
   },
   "psk-load-placeholder": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-load-placeholder.json"
+    "source": "@cardinal/essentials"
   },
   "psk-modal": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-modal.json"
+    "source": "@cardinal/essentials"
   },
   "psk-pin-popup": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-pin-popup.json"
+    "source": "@cardinal/essentials"
   },
   "psk-progress": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-progress.json"
+    "source": "@cardinal/essentials"
   },
   "psk-slideshow": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-slideshow.json"
+    "source": "@cardinal/essentials"
   },
   "psk-stepper": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-stepper.json"
+    "source": "@cardinal/essentials"
   },
   "psk-stepper-renderer": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-stepper-renderer.json"
+    "source": "@cardinal/essentials"
   },
   "psk-style": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-style.json"
+    "source": "@cardinal/essentials"
   },
   "psk-switch-button": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-switch-button.json"
+    "source": "@cardinal/essentials"
   },
   "psk-tab": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-tab.json"
+    "source": "@cardinal/essentials"
   },
   "psk-tab-navigator": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-tab-navigator.json"
+    "source": "@cardinal/essentials"
   },
   "psk-toolbar": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-toolbar.json"
+    "source": "@cardinal/essentials"
   },
   "psk-ui-alert": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-ui-alert.json"
+    "source": "@cardinal/essentials"
   },
   "psk-ui-toast": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-ui-toast.json"
+    "source": "@cardinal/essentials"
   },
   "psk-wizard": {
-    "source": "@cardinal/essentials",
-    "path": "components/psk-wizard.json"
+    "source": "@cardinal/essentials"
   }
 }
