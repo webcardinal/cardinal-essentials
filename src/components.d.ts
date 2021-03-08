@@ -195,6 +195,8 @@ export namespace Components {
     interface PskTabNavigator {
         "default": number;
         "layout": string;
+        "selected": number;
+        "tabNavigationDisabled": boolean;
     }
     interface PskToolbar {
         "actions": string | null;
@@ -697,6 +699,8 @@ declare namespace LocalJSX {
     interface PskTabNavigator {
         "default"?: number;
         "layout"?: string;
+        "selected"?: number;
+        "tabNavigationDisabled"?: boolean;
     }
     interface PskToolbar {
         "actions"?: string | null;
