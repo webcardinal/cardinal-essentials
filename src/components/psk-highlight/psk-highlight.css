@@ -1,38 +1,38 @@
-.psk-highlight {
+psk-highlight .psk-highlight {
     border-left: .5em solid;
     margin: 1em auto;
     padding: .5em;
 }
 
-.psk-highlight .body {
+psk-highlight .psk-highlight .body {
     margin: 1em 0;
 }
 
-.psk-highlight-note {
+psk-highlight .psk-highlight-note {
     background-color: #E9FBE9;
     border-color: #52E052;
 }
 
-.psk-highlight-note .header {
+psk-highlight .psk-highlight-note .header {
     color: #178217;
 }
 
-.psk-highlight-issue {
+psk-highlight .psk-highlight-issue {
     background-color: #FBE9E9;
     border-color: #E05252;
 }
 
-.psk-highlight-issue .header {
+psk-highlight .psk-highlight-issue .header {
     color: #AE1E1E;
 }
 
-.psk-highlight-example,
-.psk-highlight-warning{
+psk-highlight .psk-highlight-example,
+psk-highlight .psk-highlight-warning{
     background-color: #FCFAEE;
     border-color: #E0CB52;
 }
 
-.psk-highlight-example .header,
-.psk-highlight-warning .header{
+psk-highlight .psk-highlight-example .header,
+psk-highlight .psk-highlight-warning .header{
     color: #827017;
 }
