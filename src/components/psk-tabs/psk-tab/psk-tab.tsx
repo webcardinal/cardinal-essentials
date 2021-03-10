@@ -1,6 +1,9 @@
 import { Component, Prop, Host, h } from "@stencil/core";
 import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
+/**
+ * @disable cheatsheet
+ */
 @Component({
   tag: 'psk-tab',
   shadow: true

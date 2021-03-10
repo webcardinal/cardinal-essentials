@@ -1,6 +1,9 @@
 import { Component, Element, Prop, h } from "@stencil/core";
 import { applyStyles } from "./psk-style.utils";
 
+/**
+ * @disable cheatsheet
+ */
 @Component({
   tag: 'psk-style',
   styleUrl: './styles/psk-style.default.css',

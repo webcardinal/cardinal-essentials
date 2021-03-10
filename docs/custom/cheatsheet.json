@@ -3,7 +3,8 @@
     "source": "@cardinal/essentials"
   },
   "psk-accordion-item": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-attachments-list": {
     "source": "@cardinal/essentials"
@@ -66,7 +67,8 @@
     "source": "@cardinal/essentials"
   },
   "psk-layout-item": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-list": {
     "source": "@cardinal/essentials"
@@ -75,7 +77,8 @@
     "source": "@cardinal/essentials"
   },
   "psk-load-placeholder": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-modal": {
     "source": "@cardinal/essentials"
@@ -93,16 +96,19 @@
     "source": "@cardinal/essentials"
   },
   "psk-stepper-renderer": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-style": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-switch-button": {
     "source": "@cardinal/essentials"
   },
   "psk-tab": {
-    "source": "@cardinal/essentials"
+    "source": "@cardinal/essentials",
+    "disableCheatsheet": true
   },
   "psk-tab-navigator": {
     "source": "@cardinal/essentials"

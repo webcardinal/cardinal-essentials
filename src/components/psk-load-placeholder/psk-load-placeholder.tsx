@@ -1,6 +1,9 @@
 import { Component, h, State } from "@stencil/core";
 import { CustomTheme } from "@cardinal/internals";
 
+/**
+ * @disable cheatsheet
+ */
 @Component({
   tag: 'psk-load-placeholder',
   shadow: true

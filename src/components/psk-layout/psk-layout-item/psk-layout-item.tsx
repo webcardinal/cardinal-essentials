@@ -2,6 +2,9 @@ import { Component, Element, h, Host, Prop } from "@stencil/core";
 import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { applyStyles, generateRule } from '../psk-layout.utils';
 
+/**
+ * @disable cheatsheet
+ */
 @Component({
   tag: 'psk-layout-item',
   shadow: true

@@ -4,7 +4,12 @@
   "tag": "psk-tab",
   "usage": {},
   "docs": "",
-  "docsTags": [],
+  "docsTags": [
+    {
+      "text": "cheatsheet",
+      "name": "disable"
+    }
+  ],
   "encapsulation": "shadow",
   "dependents": [],
   "dependencies": [],

@@ -43,6 +43,40 @@
       ],
       "optional": false,
       "required": false
+    },
+    {
+      "name": "selected",
+      "type": "number",
+      "mutable": false,
+      "attr": "selected",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "0",
+      "values": [
+        {
+          "type": "number"
+        }
+      ],
+      "optional": false,
+      "required": false
+    },
+    {
+      "name": "tabNavigationDisabled",
+      "type": "boolean",
+      "mutable": false,
+      "attr": "tab-navigation-disabled",
+      "reflectToAttr": false,
+      "docs": "",
+      "docsTags": [],
+      "default": "false",
+      "values": [
+        {
+          "type": "boolean"
+        }
+      ],
+      "optional": false,
+      "required": false
     }
   ],
   "methods": [],

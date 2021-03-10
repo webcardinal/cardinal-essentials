@@ -2,6 +2,9 @@ import { Component, h, Prop } from "@stencil/core";
 import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { WizardStep } from '../../interfaces';
 
+/**
+ * @disable cheatsheet
+ */
 @Component({
     tag: 'psk-stepper-renderer',
     shadow: true

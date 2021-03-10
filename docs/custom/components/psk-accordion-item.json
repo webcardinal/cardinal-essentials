@@ -4,7 +4,12 @@
   "tag": "psk-accordion-item",
   "usage": {},
   "docs": "",
-  "docsTags": [],
+  "docsTags": [
+    {
+      "text": "cheatsheet",
+      "name": "disable"
+    }
+  ],
   "encapsulation": "shadow",
   "dependents": [],
   "dependencies": [
