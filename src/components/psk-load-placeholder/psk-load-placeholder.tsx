@@ -1,4 +1,4 @@
-import { Component, h, State } from "@stencil/core";
+import { Component, h, State, Element } from "@stencil/core";
 import { CustomTheme } from "@cardinal/internals";
 
 /**
@@ -9,6 +9,8 @@ import { CustomTheme } from "@cardinal/internals";
   shadow: true
 })
 export class PskLoadPlaceholder {
+  @Element() htmlElement: HTMLElement;
+
   @CustomTheme()
   @State() shouldBeRendered: boolean = false;
 
@@ -20,6 +22,8 @@ export class PskLoadPlaceholder {
   }
 
   render() {
+    if(!this.htmlElement.isConnected) return null;
+    
     if (this.shouldBeRendered) {
       return (
         <slot/>

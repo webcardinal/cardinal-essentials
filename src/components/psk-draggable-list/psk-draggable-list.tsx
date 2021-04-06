@@ -1,4 +1,4 @@
-import { Component, h, State } from '@stencil/core';
+import { Component, h, State, Element } from '@stencil/core';
 import { BindModel, CustomTheme } from '@cardinal/internals';
 import { DraggableOption } from '../../interfaces';
 
@@ -7,6 +7,7 @@ import { DraggableOption } from '../../interfaces';
   styleUrl: "./psk-draggable-list.css"
 })
 export class PskDraggableList {
+  @Element() htmlElement: HTMLElement;
   @CustomTheme()
 
   @BindModel() modelHandler;
@@ -105,6 +106,8 @@ export class PskDraggableList {
   }
 
   render() {
+    if(!this.htmlElement.isConnected) return null;
+
     let renderedItems = this.items ? this.items.map((item) => {
       if (item.selected && item.selected === true) {
         return <div class="selectedItem" id={"item-" + item.value} onClick={(e) => this.__onItemClick(e)}>

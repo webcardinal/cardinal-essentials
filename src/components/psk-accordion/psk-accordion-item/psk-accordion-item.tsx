@@ -42,6 +42,8 @@ export class PskAccordionItem {
   }
 
   render() {
+    if(!this.__host.isConnected) return null;
+
     return <Host opened={this.opened}>
       <div class='title' tabindex={0} onClick={e => this.toggleAccordionItem(e)}>
         <psk-icon icon='chevron-right' class={{'rotated': this.opened}}/>

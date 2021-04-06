@@ -1,4 +1,4 @@
-import { Component, h, Prop } from "@stencil/core";
+import { Component, h, Prop, Element } from "@stencil/core";
 import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import Config from "./Config.js";
 
@@ -8,6 +8,7 @@ import Config from "./Config.js";
 })
 
 export class PskHighlight {
+    @Element() htmlElement: HTMLElement;
 
     @CustomTheme()
     @TableOfContentProperty({
@@ -25,6 +26,8 @@ export class PskHighlight {
     @Prop() typeOfHighlight: string = Config.HIGHLIGHT_NOTE
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+
         return (
             <div class={`psk-highlight psk-highlight-${this.typeOfHighlight}`}>
               {this.title ? <div class="header">

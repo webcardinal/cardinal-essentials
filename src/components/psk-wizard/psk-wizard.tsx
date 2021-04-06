@@ -143,6 +143,8 @@ export class PskWizard {
     }
 
     render() {
+        if(!this.host.isConnected) return null;
+
         const StepComponentRenderer = this.activeStep.stepComponent;
 
         return [

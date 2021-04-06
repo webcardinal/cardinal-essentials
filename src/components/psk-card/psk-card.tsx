@@ -1,10 +1,11 @@
-import { Component, h, Prop } from "@stencil/core";
+import { Component, h, Prop, Element } from "@stencil/core";
 import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
 	tag: "psk-card"
 })
 export class PskCard {
+    @Element() htmlElement: HTMLElement;
 
 	@BindModel() modelHandler;
 
@@ -27,6 +28,7 @@ export class PskCard {
 	@Prop() id: string = "";
 
 	render() {
+        if(!this.htmlElement.isConnected) return null;
 
 	  let cardAttributes = {};
 		const elementId = this.id.trim().replace(/(\s+|:+|\/+)/g, "-").toLowerCase();

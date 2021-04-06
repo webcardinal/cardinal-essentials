@@ -108,6 +108,8 @@ export class PskLayoutItem {
   }
 
   render() {
+    if(!this.__host.isConnected) return null;
+
     return (
       <Host>
         <slot/>

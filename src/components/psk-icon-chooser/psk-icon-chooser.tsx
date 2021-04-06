@@ -105,6 +105,8 @@ export class PskIconChooser {
   }
 
   render() {
+    if(!this.element.isConnected) return null;
+
     return <div>
       <div class="icon-chooser-header">
         <select class="form-control" onChange={this.__categoryChangeListener.bind(this)}>

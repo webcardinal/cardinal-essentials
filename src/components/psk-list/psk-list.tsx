@@ -21,6 +21,8 @@ export class PskList {
     @Element() private element: HTMLElement;
 
     render() {
+        if(!this.element.isConnected) return null;
+
         let htmlLinesRaw = "";
         htmlLinesRaw = getInnerHTML(this);
         if(!htmlLinesRaw){

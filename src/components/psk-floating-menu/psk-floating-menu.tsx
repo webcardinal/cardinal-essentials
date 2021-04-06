@@ -1,4 +1,4 @@
-import { Component, h, Prop, Event, EventEmitter, State } from '@stencil/core';
+import { Component, h, Prop, Event, EventEmitter, State, Element } from '@stencil/core';
 import { CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 // import { MenuItem } from '@cardinal/internals/src/interfaces'
 
@@ -8,6 +8,8 @@ import { CustomTheme, TableOfContentProperty } from '@cardinal/internals';
     shadow: true
 })
 export class PskFloatingMenu {
+    @Element() htmlElement: HTMLElement;
+    
     @CustomTheme()
 
     // @State() menuItems: MenuItem[] = [];
@@ -40,6 +42,8 @@ export class PskFloatingMenu {
     }
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+
         return [
             <div id="backdrop" onClick={(event) => {
                 event.preventDefault();

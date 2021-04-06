@@ -79,6 +79,8 @@ export class PskSwitchButton {
 	}
 
 	render() {
+        if(!this.htmlElement.isConnected) return null;
+        
 		let switchButton =
 			<div class="status-container" >
 				<h5>{this.title}</h5>

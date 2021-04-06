@@ -1,4 +1,4 @@
-import { Component, h, Prop } from "@stencil/core";
+import { Component, h, Prop, Element } from "@stencil/core";
 import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
@@ -6,6 +6,8 @@ import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/intern
 })
 
 export class PskImg {
+    @Element() htmlElement: HTMLElement;
+
 	@CustomTheme()
   @BindModel() modelHandler;
 	@TableOfContentProperty({
@@ -38,6 +40,8 @@ export class PskImg {
 	@Prop() title: string;
 
 	render() {
+        if(!this.htmlElement.isConnected) return null;
+        
     let imgTagAttributes = {
       src: this.src,
       alt: this.title

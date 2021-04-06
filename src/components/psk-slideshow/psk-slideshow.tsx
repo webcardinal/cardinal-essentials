@@ -107,6 +107,8 @@ export class PskSlideshow {
   }
 
   render() {
+    if(!this.element.isConnected) return null;
+
     let slides = [];
     this.imagesSrcs.forEach((imageSrc, idx) => {
       slides.push(this.renderSlide(imageSrc, idx));

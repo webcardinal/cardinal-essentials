@@ -47,6 +47,8 @@ export class PskContainer {
   }
 
   render() {
+    if(!this._host.isConnected) return null;
+
     return [
       <slot/>,
       this.htmlFilePath && <psk-page-loader pageUrl={this.htmlFilePath}/>

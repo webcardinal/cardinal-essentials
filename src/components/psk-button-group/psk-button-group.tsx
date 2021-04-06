@@ -1,4 +1,4 @@
-import { Component, h, Prop, Listen, getElement } from '@stencil/core';
+import { Component, h, Prop, Listen, getElement, Element } from '@stencil/core';
 import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 import { stringToBoolean } from "@cardinal/internals"; // utils
 
@@ -7,11 +7,14 @@ import { stringToBoolean } from "@cardinal/internals"; // utils
     styleUrl:"../../assets/css/bootstrap/bootstrap.css"
 })
 export class PskButtonGroup {
+    @Element() htmlElement: HTMLElement;
     @BindModel() modelHandler;
 
     @CustomTheme()
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+
         if (typeof this.opened === "string") {
           this.opened = stringToBoolean(this.opened);
         }

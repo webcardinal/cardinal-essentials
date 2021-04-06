@@ -191,6 +191,8 @@ export class PskLayout {
   }
 
   render() {
+    if(!this.__host.isConnected) return null;
+
     const styles = generateRule(':host', this.__getProperties());
     deleteStyle(this.__host, `psk-layout-styles`);
     applyStyles(this.__host, styles, 'psk-layout-styles');

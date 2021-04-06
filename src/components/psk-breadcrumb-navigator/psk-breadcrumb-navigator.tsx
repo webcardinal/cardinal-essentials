@@ -86,6 +86,8 @@ export class PskBreadcrumbNavigator {
 	}
 
 	render() {
+        if(!this.__hostElement.isConnected) return null;
+        
 		let previousSegmentArrow: HTMLElement = null,
 			nextSegmentArrow: HTMLElement = null;
 

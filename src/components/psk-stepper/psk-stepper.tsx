@@ -1,4 +1,4 @@
-import { Component, h, Prop } from "@stencil/core";
+import { Component, h, Prop, Element } from "@stencil/core";
 import { TableOfContentProperty } from "@cardinal/internals";
 import { WizardStep } from "../../interfaces";
 
@@ -6,6 +6,7 @@ import { WizardStep } from "../../interfaces";
     tag: 'psk-stepper'
 })
 export class PskStepper {
+    @Element() htmlElement: HTMLElement;
 
     @TableOfContentProperty({
         description:`This property is the string that defines the psk-stepper render passed on by the psk-wizard.`,
@@ -42,6 +43,8 @@ export class PskStepper {
     @Prop() handleStepChange: Function;
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+        
         const StepperComponentRenderer: string = this.componentRender;
 
         return <StepperComponentRenderer

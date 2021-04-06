@@ -1,4 +1,4 @@
-import { Component, State, Event, EventEmitter, Listen, h, Prop, Watch } from "@stencil/core";
+import { Component, State, Event, EventEmitter, Listen, h, Prop, Watch, Element } from "@stencil/core";
 import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/internals";
 import { StyleCustomisation, FeedbackMessage as Message } from "../../interfaces";
 import Config from "./Config.js";
@@ -8,6 +8,8 @@ import Config from "./Config.js";
     shadow: true
 })
 export class PskListFeedbacks {
+    @Element() htmlElement: HTMLElement;
+
     private _styleCustomisation: StyleCustomisation = {};
 
     @State() alertOpened: boolean = false;
@@ -183,6 +185,8 @@ export class PskListFeedbacks {
         }
     }
     render() {
+        if(!this.htmlElement.isConnected) return null;
+        
         let alertMessages = [];
         let _feedbackTag
         this._messagesContent.forEach((message, key) => {

@@ -1,4 +1,4 @@
-import { Component, h, Prop } from '@stencil/core';
+import { Component, h, Prop, Element } from '@stencil/core';
 import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
@@ -11,6 +11,8 @@ const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 })
 
 export class PskAttachmentsList {
+    @Element() htmlElement: HTMLElement;
+
 	@CustomTheme()
 	@BindModel() modelHandler;
 	@TableOfContentProperty({
@@ -49,6 +51,8 @@ export class PskAttachmentsList {
 	}
 
 	render() {
+        if(!this.htmlElement.isConnected) return null;
+
 	  if(!Array.isArray(this.files)){
 	    return null;
     }

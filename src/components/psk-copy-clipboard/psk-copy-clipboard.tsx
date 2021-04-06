@@ -91,6 +91,7 @@ export class PskCopyClipboard {
   }
 
   render() {
+    if(!this.element.isConnected) return null;
 
     const elementId = normalizeElementId(this.id.trim());
     if (elementId.length === 0 || !this._isCopySupported()) {

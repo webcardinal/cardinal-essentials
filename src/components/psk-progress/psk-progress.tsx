@@ -1,4 +1,4 @@
-import {h, Component, Prop} from '@stencil/core';
+import {h, Component, Prop, Element} from '@stencil/core';
 import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 
 @Component({
@@ -6,6 +6,7 @@ import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/intern
     styleUrl: './psk-progress.css'
 })
 export class PskProgress {
+    @Element() htmlElement: HTMLElement;
 
     @CustomTheme()
     @BindModel() modelHandler;
@@ -41,6 +42,8 @@ export class PskProgress {
     @Prop() label: string = null;
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+        
         let safeValue = this.value, safeMax = this.max;
         if (safeValue < 0) {
           safeValue = 0;

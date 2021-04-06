@@ -1,4 +1,4 @@
-import { Component, h, Prop } from "@stencil/core";
+import { Component, h, Prop, Element } from "@stencil/core";
 import { CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 import { WizardStep } from '../../interfaces';
 
@@ -10,6 +10,8 @@ import { WizardStep } from '../../interfaces';
     shadow: true
 })
 export class PskStepperRenderer {
+    @Element() htmlElement: HTMLElement;
+
     @CustomTheme()
     @TableOfContentProperty({
         description: `This property holds an array of:
@@ -56,6 +58,7 @@ export class PskStepperRenderer {
     }
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
 
         return (
             <div class="steps clearfix">

@@ -1,4 +1,4 @@
-import { Component, h, Listen, Event, EventEmitter, State, Prop } from "@stencil/core";
+import { Component, h, Listen, Event, EventEmitter, State, Prop, Element } from "@stencil/core";
 import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
@@ -7,6 +7,8 @@ import { CustomTheme, TableOfContentEvent, TableOfContentProperty } from "@cardi
 	shadow: true
 })
 export class PskPinPopup {
+    @Element() htmlElement: HTMLElement;
+
 	@CustomTheme()
 	@TableOfContentProperty({
 		description: `This is the property that gives the state of the popup if it is opened or closed.The possible values are true or false`,
@@ -62,6 +64,8 @@ export class PskPinPopup {
 	}
 
 	render() {
+        if(!this.htmlElement.isConnected) return null;
+        
 		return (
 			<psk-modal opened={this.opened}>
 				<h3 slot="title">Enter your PIN</h3>

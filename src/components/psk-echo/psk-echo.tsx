@@ -1,4 +1,4 @@
-import { Component, Prop } from '@stencil/core';
+import { Component, Prop, Element } from '@stencil/core';
 import { BindModel, TableOfContentProperty} from "@cardinal/internals";
 
 @Component({
@@ -6,6 +6,7 @@ import { BindModel, TableOfContentProperty} from "@cardinal/internals";
 })
 
 export class PskEcho {
+  @Element() htmlElement: HTMLElement;
   @BindModel() modelHandler;
 
   @TableOfContentProperty({
@@ -17,6 +18,7 @@ export class PskEcho {
   @Prop() value: string | null = null;
 
   render() {
+    if(!this.htmlElement.isConnected) return null;
     return (this.value ? this.value : null);
   }
 }

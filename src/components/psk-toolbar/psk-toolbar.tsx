@@ -40,6 +40,8 @@ export class PskToolbar {
     @Element() private host: HTMLElement;
 
     render() {
+        if(!this.host.isConnected) return null;
+
         if (!this.actions) return null;
 
         return this.actions

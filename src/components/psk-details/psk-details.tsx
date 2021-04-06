@@ -130,6 +130,7 @@ export class PskDetails {
   }
 
   render() {
+    if(!this.__host.isConnected) return null;
     return <Host opened={this.opened}>{this.__renderDetails()}</Host>
   }
 }

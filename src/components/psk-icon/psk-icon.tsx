@@ -1,4 +1,4 @@
-import { Component, Prop, h } from "@stencil/core";
+import { Component, Prop, h, Element } from "@stencil/core";
 import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/internals";
 
 @Component({
@@ -8,6 +8,8 @@ import { BindModel, CustomTheme, TableOfContentProperty } from "@cardinal/intern
         "../../assets/css/bootstrap/bootstrap.min.css"],
 })
 export class PskIcon {
+    @Element() htmlElement: HTMLElement;
+
     @CustomTheme()
     @BindModel() modelHandler;
 
@@ -52,6 +54,8 @@ export class PskIcon {
     @Prop() classes?: string | null;
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+        
         if (!this.icon) {
             return null;
         }

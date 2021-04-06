@@ -1,4 +1,4 @@
-import { h, Component, Prop } from '@stencil/core';
+import { h, Component, Prop, Element } from '@stencil/core';
 import { BindModel, CustomTheme, TableOfContentProperty } from '@cardinal/internals';
 import { DATE_FORMAT_MASKS } from '../../utils/constants';
 import DateFormat from '../../utils/DateFormat';
@@ -7,6 +7,7 @@ import DateFormat from '../../utils/DateFormat';
     tag: 'psk-date'
 })
 export class PskDate {
+    @Element() htmlElement: HTMLElement;
 
     @CustomTheme()
     @BindModel() modelHandler;
@@ -37,6 +38,8 @@ export class PskDate {
     @Prop() hoverFormat: string | null = DATE_FORMAT_MASKS.default;
 
     render() {
+        if(!this.htmlElement.isConnected) return null;
+        
         if (!new Date(this.value).getTime()) {
             return null;
         }
