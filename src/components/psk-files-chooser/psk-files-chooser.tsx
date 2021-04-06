@@ -102,6 +102,8 @@ export class PskFilesChooser {
   }
 
   render() {
+    if(!this.htmlElement.isConnected) return null;
+
     let directoryAttributes = {};
     let selectedFiles = null;
 
