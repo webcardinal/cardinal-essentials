@@ -94,8 +94,7 @@ export class PskFilesChooser {
     return <div class="fileDiv">
       <button type="button" class="btn btn-secondary trashButton"
               onClick={() => this.deleteFileFromList(file)}>
-        {/*<psk-icon icon="trash"/>*/}
-        <span>X</span>
+        <span>&times;</span>
       </button>
       <p>{file.name}</p>
     </div>
